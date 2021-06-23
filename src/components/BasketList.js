@@ -26,7 +26,6 @@ function BasketList(props){
         )) :  <li  class="collection-item ">Сart is empty </li>
     }
     <li  class="collection-item active">Total cost: {totalPrice} UAH
-      <button className="secondary-content btn-small">Arrange </button>
     </li>
     <i className = "material-icons basket-close" onClick = {handleBasketShow}>close</i>
   </ul>
