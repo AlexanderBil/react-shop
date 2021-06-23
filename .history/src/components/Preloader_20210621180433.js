@@ -1,0 +1,4 @@
+function Preloader(){
+
+}
+export {Preloader}
